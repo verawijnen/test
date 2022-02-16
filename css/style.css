@@ -1,0 +1,206 @@
+
+.flex-container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ background-color: orange;
+ flex-wrap: wrap;
+ padding: 10px;
+ position: fixed;
+ width: 100%;
+ z-index: 10;
+
+
+}
+
+.flex-container > div {
+  background-color: orange;
+  width: 100px;
+  text-align: auto;
+  line-height: 75px;
+  font-size: 20px;
+
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+a {
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+.contact {
+
+  text-align: center;
+  background-color: orange;
+}
+
+
+
+/*de onderste gaan over de index.html*/
+
+.boss-container {
+  background-color: #F4FBFE;
+  margin: 0px 5%;
+}
+
+.img1 {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+body {
+ background-color: #00008B;
+}
+
+.hometekst {
+  display: flex;
+}
+
+.nieuws1 {
+  display: row;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-style: outset;
+}
+
+.nieuws2 {
+  display: row;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: outset;
+}
+
+/*de onderste gaan over de tickets.html*/
+
+.boss-container2 {
+  background-color: white;
+  margin: 0px 5%;
+}
+
+.tickets {
+  text-align: center;
+  background-image: url(../images/ticketsbackground.jpg);
+}
+
+
+
+/*de onderste gaan over de muziek.html*/
+
+.boss-container3 {
+  margin: 0px 5%;
+  height: 100%;
+  background-color: white;
+
+}
+
+.muziek {
+
+  height: 100%;
+  background-image: url(../images/MuziekBackground.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.muziektekst {
+  text-align: center;
+
+}
+
+
+.spotify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* de onderste gaan over winkel.html*/
+
+
+.boss-container4 {
+  background-color: white;
+  margin: 0px 5%;
+
+}
+
+.winkel {
+  text-align: center;
+  background-color: #00008B;
+
+}
+
+
+.image {
+  float: right;
+  width: 33,33%;
+  padding: 5px;
+  margin-left: 125px;
+  border-style: outset;
+
+}
+
+.imagecontainer {
+  clear: both;
+  display: table;
+  overflow: auto;
+
+}
+
+/*de onderste gaan over overguus.html*/
+
+.boss-container5 {
+  background-color: white;
+  margin: 0px 5%;
+}
+
+.overguus {
+  background-image: url(../images/overguusbackground.jpg);
+}
+
+.tekst {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
